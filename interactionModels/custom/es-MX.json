@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "terapia de lenguaje",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnimalesPalabrasIntent",
+          "slots": [
+            {
+              "name": "animal",
+              "type": "AMAZON.Animal"
+            }
+          ],
+          "samples": [
+            "quiero ver el animal {animal}",
+            "enseñame el animal {animal}",
+            "quiero aprender a decir el animal {animal}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "7"
+}
